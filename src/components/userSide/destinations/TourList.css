@@ -1,0 +1,85 @@
+.tour-list-container {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .tour-list-container h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #1a1a1a;
+  }
+  
+  .filter-buttons {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .filter-buttons button {
+    padding: 10px 20px;
+    background-color: #eee;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s ease;
+  }
+  
+  .filter-buttons button.active,
+  .filter-buttons button:hover {
+    background-color: #0e76a8;
+    color: white;
+  }
+  
+  .tour-grid {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    padding: 10px;
+  }
+  
+  .tour-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .tour-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .tour-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .tour-info {
+    padding: 15px;
+    text-align: left;
+  }
+  
+  .tour-info h3 {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .tour-info p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .badge {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 4px 10px;
+    background: #0e76a8;
+    color: white;
+    border-radius: 20px;
+    font-size: 12px;
+  }
+  
