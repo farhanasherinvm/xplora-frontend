@@ -23,3 +23,12 @@
 .nav-links a:hover {
   text-decoration: underline;
 }
+.logout-btn {
+  background: none;
+  border: none;
+  color: rgb(2, 0, 0); /* or your nav text color */
+  cursor: pointer;
+  font-size: inherit;
+  padding: 0;
+  margin: 0;
+}
